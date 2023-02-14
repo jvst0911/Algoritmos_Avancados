@@ -1,0 +1,1 @@
+Repositório destinado às aulas de algoritmo avançado com o professor Paulo Manseira.
