@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/class2/binary_search/binary_search/obj
+/class2/binary_search/binary_search/bin/Debug/net6.0
+/class2/binary_search/.vs/binary_search
+/class2/.vs
