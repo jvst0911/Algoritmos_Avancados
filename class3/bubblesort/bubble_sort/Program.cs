@@ -82,28 +82,3 @@ static void quicksort()
         return i + 1;
     }
 }
-
-static void sort()
-{
-    var range = new List<int> { 1, 4, 6, 7, 10, 2, 3, 5, 8, 9 };
-    var limit = range.Count() - 1;
-
-    for (int i = 0; i < limit; i++)
-    {
-        int lowest = int.MaxValue;
-        for (int j = i+1; j < limit; j++)
-        {
-            if (range[j] < lowest)
-            {
-                lowest = range[j];
-            }
-            else
-            {
-                int aux = range[j];
-                range[j] = range[i];
-                range[i] = aux;
-            }
-        }
-    }
-    Console.WriteLine(string.Join(",", range));
-};
