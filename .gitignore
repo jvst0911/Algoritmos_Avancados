@@ -14,3 +14,6 @@
 /class4/.vs/class4
 /class4/class4/bin/Debug/net6.0
 /class4/class4/obj
+*.2
+/Class5/.vs/Class5
+/Class5/Class5/obj
