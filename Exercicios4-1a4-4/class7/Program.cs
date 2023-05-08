@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿//Alunos: João Vitor de Souza Tomio e Wilson Roberto Marutti
+
+using System.Diagnostics;
 
 Console.Write(Soma(new List<double> { 2, 4, 6 }) + "\n");
 
